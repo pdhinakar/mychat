@@ -60,9 +60,9 @@ session_start();
 		
 			$group_name1=strtoupper($group_name);
                         
-			if($group_name != "" )
+			if($group_name1 != "" )
 			{
-				$s = "select group_name from new_group where group_name='$group_name'";
+				$s = "select group_name1 from new_group where group_name1='$group_name1'";
 
 				 $result = mysqli_query($con,$s);
 
